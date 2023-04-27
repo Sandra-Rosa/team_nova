@@ -17,6 +17,7 @@ function App() {
             <h1>TEAM NOVA</h1>
             <p className="newpara">Unleash the new</p>
             <p>Team Nova is a group of highly innovative and creative individuals who are committed to breaking boundaries and thinking outside the box. With the motto "Unleash the New," we bring together a diverse range of skills, experiences, and perspectives to tackle challenges and create cutting-edge solutions. Our team members are uniquely talented and driven, and we work collaboratively to achieve our goals and make a lasting impact. As a team, we strive to shine as brightly as a nova, illuminating new possibilities and leading the way towards a brighter future.</p>
+            <a href="https://discord.gg/quPJS5qq"><button>Join Discord</button></a>
           </div>
         </div>
       </main>

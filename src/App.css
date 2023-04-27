@@ -65,6 +65,21 @@
   color: #fbfbfb;
   margin-bottom: -20px;
 }
+.App .thelogo .content button{
+  margin-top: 30px;
+  background-color: rgba(245, 245, 245, 0.2);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  /* text-shadow: 1px 1px #fff; */
+}
 .App .thelogo .content .newpara {
   font-family: "euclidcircular";
   font-style: normal;
@@ -96,7 +111,7 @@
   flex: 1 0 30%;
   margin-bottom: 1rem;
   padding: 1rem;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   border-radius: 5px;
   margin-left: 2%;
 }
@@ -198,7 +213,7 @@ footer p{
   }
   .App .thelogo img {
     position: absolute;
-    width: 50px;
+    width: 60px;
     height: auto;
     left: 10px;
     top: 10px;
