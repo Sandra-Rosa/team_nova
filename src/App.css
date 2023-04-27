@@ -42,7 +42,7 @@
   top: 50px;
 }
 .App .thelogo .content {
-  margin-left: 10px;
+  margin:30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -55,14 +55,13 @@
   font-size: 100px;
   line-height: 100%;
   color: white;
-  margin-bottom: -50px;
+  margin-bottom: -20px;
 }
 .App .thelogo .content p {
   font-family: "euclidcircular";
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 51px;
+  font-size: 20px;
   color: #fbfbfb;
 }
 
@@ -120,6 +119,11 @@
   color:white;
 }
 @media screen and (max-width:1080px){
+  .App .thelogo .content {
+    margin:0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .App .thelogo .content h1 {
       font-size: 70px;
   }
@@ -132,6 +136,11 @@
 }
 
 @media screen and (max-width:800px){
+  .App .thelogo .content {
+    margin:0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 .App .thelogo .content h1 {
     font-size: 70px;
 }
@@ -144,6 +153,11 @@ footer p{
 }
 
 @media screen and (max-width:600px){
+  .App .thelogo .content {
+    margin:0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 .App .thelogo .content h1 {
     font-size: 70px;
 }
@@ -156,6 +170,11 @@ footer p{
 }
 
 @media screen and (max-width:450px){
+  .App .thelogo .content {
+    margin:0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .App .thelogo img {
     position: absolute;
     width: 50px;
