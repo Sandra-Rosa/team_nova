@@ -20,6 +20,11 @@ function App() {
             <a href="https://discord.gg/quPJS5qq"><button>Join Discord</button></a>
           </div>
         </div>
+        <footer>
+        <p>8281106433</p>
+        <p>@team5_nova</p>
+        <p>nova.team5.org@gmail.com</p>
+      </footer>
       </main>
       <div className="team">
         <h2>MEET OUR TEAM</h2>
@@ -84,11 +89,7 @@ function App() {
           </div>
         </div>
       </div>
-      <footer>
-        <p>8281106433</p>
-        <p>@team5_nova</p>
-        <p>nova.team5.org@gmail.com</p>
-      </footer>
+      <div className="line"></div>
     </div>
   );
 }

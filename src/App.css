@@ -1,10 +1,12 @@
 .App {
-  background-image: url("./assets/Gradient.jpg");
-  background-size: cover;
   color: #fbfbfb;
   width: 100%;
   background-color: #010310;
   overflow-y: hidden;
+}
+.App main{
+  background-image: url("./assets/Gradient.jpg");
+  background-size: cover;
 }
 @font-face {
   font-family: 'neutralface';
@@ -145,7 +147,21 @@
   text-decoration: none;
   color:white;
 }
+.App .team h2{
+  font-family: 'neutralface';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 117px;
+
+color: #FBFBFB;
+}
 @media screen and (max-width:1080px){
+  .App .team h2{
+    font-size:50px;
+    line-height: 0px;
+
+  }
   .App .thelogo .content .newpara{
     font-size: 20px;
   }
@@ -166,6 +182,10 @@
 }
 
 @media screen and (max-width:800px){
+  .App .team h2{
+    font-size:50px;
+    line-height: 0px;
+  }
   .App .thelogo .content {
     margin:0;
     margin-left: 20px;
@@ -183,6 +203,10 @@ footer p{
 }
 
 @media screen and (max-width:600px){
+  .App .team h2{
+    font-size:50px;
+    line-height: 0px;
+  }
   .App .thelogo .content .newpara{
     font-size: 20px;
   }
@@ -203,6 +227,10 @@ footer p{
 }
 
 @media screen and (max-width:450px){
+  .App .team h2{
+    font-size:50px;
+    line-height: 50px;
+  }
   .App .thelogo .content .newpara{
     font-size: 20px;
   }
@@ -234,4 +262,11 @@ footer{
   width:100%;
   justify-content: space-between;
   align-items: center;
+  padding-left:1%;
+  padding-right: 1%;
+}
+.line {
+  position: relative;
+  height: 1px;
+  background-color: #ccc;
 }
