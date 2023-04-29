@@ -25,6 +25,8 @@ function App() {
         <p>@team5_nova</p>
         <p>nova.team5.org@gmail.com</p>
       </footer>
+      <br/>
+      <a href="https://drive.google.com/file/d/1TFGH1ff-DNcvZOfnpdPuwFGs2bx9WqKO/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button>Download PDF</button></a>
       </main>
       <div className="team">
         <h2>MEET OUR TEAM</h2>
